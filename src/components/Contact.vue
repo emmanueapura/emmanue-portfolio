@@ -125,7 +125,7 @@
 
 
 			<div class="flex-folumn gap-2 col-7 mx-auto" >
-				<form class="text-center mx-auto">
+				<form @submit.prevent = "submitForm" class="text-center mx-auto">
 					<div class="form-floating mb-3 w-100">
 						<input type="text" class="form-control" id="username" placeholder="First Name M.I. Name">
 						<label for="username">Input name</label>
